@@ -21,7 +21,7 @@ return (
         <Navbar.Collapse id="navbarScroll"className='nav-right'>
           <Nav>
             <Nav.Link href="#action1"className='px-lg-5'>Home</Nav.Link>
-            <Nav.Link href="#action1"className='px-lg-5'>Home</Nav.Link>
+            <Nav.Link href="#action1"claclearssName='px-lg-5'>Home</Nav.Link>
             <Nav.Link href="#action1"className='px-lg-5' >Home</Nav.Link>
             <Nav.Link href="#action1"className='px-lg-5' >Home</Nav.Link>
             <Nav.Link href="#action1"className='px-lg-3' >Home</Nav.Link>
