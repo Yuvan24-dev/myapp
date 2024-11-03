@@ -1,0 +1,103 @@
+.slider_section {
+    position: relative;
+    background-image: url('./img/slider-bg1.png');
+    /* Background image */
+    background-size: 70% auto;
+    /* Background image covering 70% */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    /* Fallback background color */
+}
+
+.overlay-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    /* Adjust as needed */
+    height: 100%;
+    z-index: 0;
+    /* Ensure it stays behind other content */
+}
+
+.right-overlay-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* Adjust size as needed */
+    object-fit: cover;
+    opacity: 0.8;
+    /* Optional opacity */
+}
+
+.slider-img-container .main-slider-img {
+    position: relative;
+    right: -20px;
+    /* Slightly move the main image to the right */
+    width: 90%;
+    /* Make the main image smaller */
+    z-index: 1;
+    /* Place above background images */
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    z-index: 2;
+    /* Ensure it stays above the images */
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-btn {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-btn-left {
+    position: relative;
+}
+
+.carousel-btn-right {
+    position: relative;
+}
+
+.carousel-btn:hover {
+    background-color: #ddd;
+}
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 20px;
+    /* Adjust to your preference */
+    transform: translateY(-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    /* Stack buttons vertically */
+    gap: 10px;
+    /* Space between buttons */
+}
+
+.carousel-btn {
+    background-color:white;
+    border: 2px white;
+    color: brown;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    float: left;    
+}
+
