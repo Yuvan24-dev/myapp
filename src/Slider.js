@@ -38,7 +38,10 @@ const SliderSection = () => {
 
     return (
         <section className="slider_section">
-            <div className="overlay-images">
+           <div className='col-10'>
+           <img className="left-overlay-img col-12 col-sm-9" src={backgroundImage} alt="Right Side Decoration" />
+           </div>
+            <div className="overlay-images col-1">
                 <img className="right-overlay-img" src={rightImage} alt="Right Side Decoration" />
             </div>
             <Carousel activeIndex={index} onSelect={setIndex} controls={false} indicators={false}>
@@ -58,7 +61,7 @@ const SliderSection = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6 slider-img-container">
-                                    <div className="img-box">
+                                    <div className="img-box allign-item-center">
                                         <img className="main-slider-img" src={slide.imgSrc} alt={slide.title} />
                                     </div>
                                 </div>

@@ -1,13 +1,14 @@
+/* @font-face {
+  font-family: "SnellBT Regular";
+  src: local("SnellBT Regular"),
+    url("./font/snellBT-Regular.otf") format("opentype");
+  font-weight: normal;
+} */
 
 .Full_body{
   background-color: aqua;
 }
-/* @font-face {
-  font-family: "SnellBT Regular";
-  src: url('./font/snellBT-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-} */
+
 .hero_area {
   height: calc(100vh - 45px);
   display: -webkit-box;
