@@ -2,9 +2,9 @@ import Arrowclr from './img/color-arrow.png';
 import abtrightimg from './img/about-img.png'; 
 function AboutSection(){
  return(   
-<section className="px-4">
+<section className="p-4 about_section ">
 <div className="row">
-<div className="col-6"  >
+<div className="col-12 col-sm-6"  >
 <div className ="detail_Box">
 <div className="heading_container">
 <h2>About our Company</h2></div>
@@ -20,7 +20,7 @@ Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opp
 </div>    
 </div>  
 {/* left side ended */}
-<div className="col-6">
+<div className="col-12 col-sm-6">
 <div className="img_box">
 <img src={abtrightimg}></img>
 </div>
