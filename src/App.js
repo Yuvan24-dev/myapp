@@ -1,19 +1,20 @@
-import './App.css';
-import Herojs from './Hero.js';
-import SliderSection from './Slider.js';
-import AboutSection from './Find.js';
+import React from 'react';
+import NavbarComponent from './Navbar';
+import CarouselComponent from './Carousel';
+import Services from './Services';
+import AboutUs from './Aboutus';
+import WhyUs from './Whyus';
+import Team from './Team';
 
-function App() {
-  return (
-   <div className='px-sm-4 px-xl-5 py-sm-4 py-xl-4 '>
-    <section className='hero_area Full_body'>
-    <Herojs />    
-    <SliderSection />
-    <AboutSection />
-    </section>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <NavbarComponent />
+    <CarouselComponent />
+    <Services />
+    <AboutUs />
+    <WhyUs />
+    <Team />
+  </>
+);
+
 export default App;
-
-
