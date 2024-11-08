@@ -10,3 +10,13 @@
     -ms-flex-align: start;
     align-items: flex-start;
 }
+.img_box{
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+}
+.about_section {
+    position: relative;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
