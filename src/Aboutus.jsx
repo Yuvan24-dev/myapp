@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './App.css';
-y
+
 
 const AboutUs = () => (
     <Container fluid className="bg-primary text-white py-5">

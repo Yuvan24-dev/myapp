@@ -237,10 +237,15 @@
     align-items: center;
 }
 
-.img-box_c img {
-    width: 120px;
+.img_why {
+    width: 70px;
+    padding: 15px 0px 0px 0px;
+}
+.img_forbd{
+    width: 130px;
+    height: 110px;
     border-radius: 100%;
-    border: 5px solid #ffffff;
+    border: 5px solid #170202;
 }
 
 .team_section .team_container .box1 .detail-box {
@@ -297,6 +302,24 @@
 .container .rowmargin {
     margin-bottom: 50px;
 }
+/* Center the image inside the card */
+.service-card-img {
+    width: 30%;  /* Ensure the image stretches to full width */
+    height: 70px; /* Set a fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio, cover the area */
+    margin-top: 20px; /* Add some space below the image */
+}
+
+/* Optional: Add styles to the card itself */
+.card {
+    border-radius: 8px; /* Round the corners of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.card-body {
+    padding: 20px;
+}
+
 
 @keyframes moveUpDown {
     0% {
