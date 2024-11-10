@@ -15,13 +15,13 @@ const App = () => (
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#why-us">Why Us</Nav.Link>
-            <Nav.Link href="#team">Team</Nav.Link>
-            <Nav.Link href="#login"><MdPerson2 />Login</Nav.Link>
-            <Nav.Link href="#team"><MdOutlineSearch /></Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#home">Home</Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#about">About</Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#services">Services</Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#why-us">Why Us</Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#team">Team</Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#login"><MdPerson2 />Login</Nav.Link>
+            <Nav.Link className='nav-item nav-link' href="#team"><MdOutlineSearch /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -33,9 +33,6 @@ const App = () => (
         id="carouselDemo"
         interval={3000}  // Automatically move after 3 seconds
         pause="hover"  // Pause on hover
-        indicators={true} // Show indicators
-        nextIcon={<span className="carousel-control-next-icon" />}
-        prevIcon={<span className="carousel-control-prev-icon" />}
         className="custom-carousel"
       >
         {/* First Carousel Item */}

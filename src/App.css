@@ -37,7 +37,6 @@
 
 .navbar-brand {
     float: left;
-    margin: 0px 0px 30px 29px;
     font-size: 30px;
     color: antiquewhite;
 }
@@ -52,6 +51,9 @@
     text-transform: uppercase;
     font-weight: 500;
 }
+.nav_link{
+        text-decoration: none;
+}
 
 .nav-item :hover {
     color: rgb(34, 104, 207);
@@ -59,6 +61,9 @@
 
 .navbar-toggler .navbar-toggler-icon {
     background-color: rgb(245, 232, 216);
+}
+.img-fluid {
+    z-index: 1;
 }
 
 .rowmargin {
@@ -128,10 +133,6 @@
     text-align: center;
 }
 
-.menua span {
-    color: aqua;
-}
-
 .box {
     height: 100px;
     background-color: aquamarine;
@@ -139,6 +140,7 @@
 
 .card-img-top {
     height: 100px;
+    width:20%;
 }
 
 .card-img-top1 {
@@ -306,6 +308,9 @@ border: 5px solid #fffefe;}
 .forsection {
     padding-bottom: 200px;
 }
+.forspan{
+    color:aqua
+}
 
 .container .rowmargin {
     margin-bottom: 50px;
@@ -336,7 +341,40 @@ border: 5px solid #fffefe;}
     
     
 }
+.forsection {
+    padding-bottom: 200px;
+}
 
+.shadowfor {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card-text1 {
+    color: #555;
+    font-size: 1rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #00bbf0;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
 
 
 @keyframes moveUpDown {

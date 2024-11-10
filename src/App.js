@@ -4,6 +4,9 @@ import Services from './Services';
 import AboutUs from './Aboutus';
 import WhyUs from './Whyus';
 import Team from './Team';
+import CustomerCarousel from './CustomerCarousel'
+import FooterSection from './footer'
+
 
 const App = () => (
   <>
@@ -12,6 +15,8 @@ const App = () => (
     <AboutUs />
     <WhyUs />
     <Team />
+    <CustomerCarousel/>
+    <FooterSection />
   </>
 );
 
