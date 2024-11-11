@@ -18,11 +18,11 @@ const CustomerCarousel = () => {
                         <Col lg={5} sm={6} className="shadowfor mx-auto">
                             <div className="card no-border position-relative px-5 mx-3">
                                 <div className="image-wrapper position-absolute rounded-circle">
-                                    <img
+                                    {/* <img
                                         src={client1}
                                         alt="Client Image"
                                         className="img-fluid rounded-circle position-absolute"
-                                    />
+                                    /> */}
                                 </div>
                                 <div className="card-body mt-0 pt-5 text-left">
                                     <h2 className="card-title m-0">Lus Den</h2>
@@ -36,11 +36,11 @@ const CustomerCarousel = () => {
                         <Col lg={5} sm={6} className="shadowfor mx-auto">
                             <div className="card no-border position-relative px-5 mx-3">
                                 <div className="image-wrapper position-absolute rounded-circle">
-                                    <img
+                                    {/* <img
                                         src={client2}
                                         alt="Client Image"
                                         className="img-fluid rounded-circle position-absolute"
-                                    />
+                                    /> */}
                                 </div>
                                 <div className="card-body mt-0 pt-5 text-left">
                                     <h2 className="card-title m-0">Zen Court</h2>
@@ -59,11 +59,11 @@ const CustomerCarousel = () => {
                         <Col lg={5} sm={6} className="shadowfor mx-auto">
                             <div className="card no-border position-relative px-5 mx-3">
                                 <div className="image-wrapper position-absolute rounded-circle">
-                                    <img
+                                    {/* <img
                                         src={client1}
                                         alt="Client Image"
                                         className="img-fluid rounded-circle"
-                                    />
+                                    /> */}
                                 </div>
                                 <div className="card-body mt-0 pt-5 text-left">
                                     <h2 className="card-title m-0">Jane Doe</h2>
@@ -77,11 +77,11 @@ const CustomerCarousel = () => {
                         <Col lg={5} sm={6} className="shadowfor mx-auto">
                             <div className="card no-border position-relative px-5 mx-3">
                                 <div className="image-wrapper position-absolute rounded-circle">
-                                    <img
+                                    {/* <img
                                         src={client2}
                                         alt="Client Image"
                                         className="img-fluid rounded-circle"
-                                    />
+                                    /> */}
                                 </div>
                                 <div className="card-body mt-0 pt-5 text-left">
                                     <h2 className="card-title m-0">John Smith</h2>

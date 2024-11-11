@@ -67,6 +67,7 @@ const WhyUs = () => (
             </div>
         </Container>
     </section>
+    
 );
 
 export default WhyUs;

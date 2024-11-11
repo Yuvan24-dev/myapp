@@ -6,6 +6,7 @@ import WhyUs from './Whyus';
 import Team from './Team';
 import CustomerCarousel from './CustomerCarousel'
 import FooterSection from './footer'
+import Useingstate from './Usestate';
 
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
     <Team />
     <CustomerCarousel/>
     <FooterSection />
+    <Useingstate />
   </>
 );
 
